@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Domain.Grub.Base;
+using System;
 
 namespace Domain
 {
