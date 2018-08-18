@@ -1,34 +1,32 @@
 ﻿using Domain.Grub.Base;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
-namespace Domain.Grub.Animal.Cow
+namespace Domain.Grub.Animal.Chicken
 {
-    public class Shank : Food
+    public class Breast : Food
     {
-        public Shank()
+        public Breast()
         {
             //G
             Grams = 100;
-            Fat = new Fat { Grams = 6, Polyunsaturated = 0, Saturated = 3, Monounaturated = 3 };
-            Calories = 201;
-            Carbohydrate = new Carbohydrate { DietaryFiber = 0, Sugar = 0 };
-            Protein = 34;
+            Fat = new Fat { Grams = 4, Polyunsaturated = 1, Saturated = 1, Monounaturated = 2 };
+            Calories = 165;
+            Carbohydrate = new Carbohydrate { DietaryFiber = 0, Sugar = 0, Grams = 0 };
+            Protein = 31;
 
             //Mg
-            Cholesterol = 78;
-            Sodium = 64;
-            Potassium = 447;
+            Cholesterol = 85;
+            Sodium = 74;
+            Potassium = 256;
 
             //Percent
             VitaminA = 0;
-            Calcium = 3;
-            VitaminD = 0;
-            VitaminB12 = 63;
+            Calcium = 1;
+            VitaminD = 1;
+            VitaminB12 = 5;
             VitaminC = 0;
-            Iron = 21;
-            VitaminB6 = 20;
+            Iron = 5;
+            VitaminB6 = 30;
             Magnesium = 7;
         }
 

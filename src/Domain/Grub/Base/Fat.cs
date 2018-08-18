@@ -6,9 +6,10 @@ namespace Domain.Grub.Base
 {
     public class Fat
     {
-        public int Grams { get; set; }
-        public int Saturated { get; set; }
-        public int Monounaturated { get; set; }
-        public int Polyunsaturated { get; set; }
+        public double Grams { get; set; }
+        public double Saturated { get; set; }
+        public double TransFat { get; set; }
+        public double Monounaturated { get; set; }
+        public double Polyunsaturated { get; set; }
     }
 }

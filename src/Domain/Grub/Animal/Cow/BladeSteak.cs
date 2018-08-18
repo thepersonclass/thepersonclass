@@ -1,4 +1,5 @@
 ﻿using Domain.Grub.Base;
+using System.Collections.Generic;
 
 namespace Domain.Grub.Animal.Cow
 {
@@ -27,26 +28,6 @@ namespace Domain.Grub.Animal.Cow
             Iron = 33;
             VitaminB6 = 40;
             Magnesium = 12;
-        }
-
-        public void Boil()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void Broil()
-        {
-            Grams = 123;
-        }
-
-        public void DeepFry()
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public void PanFry()
-        {
-            throw new System.NotImplementedException();
         }
     }
 }

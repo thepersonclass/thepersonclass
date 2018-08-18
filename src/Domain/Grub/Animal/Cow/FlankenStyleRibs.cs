@@ -1,4 +1,5 @@
 ﻿using Domain.Grub.Base;
+using System.Collections.Generic;
 
 namespace Domain.Grub.Animal.Cow
 {
@@ -31,22 +32,22 @@ namespace Domain.Grub.Animal.Cow
             Magnesium = 15;
         }
 
-        public void Boil()
+        public override void Boil(IEnumerable<Ingredient> ingrediants)
         {
             throw new System.NotImplementedException();
         }
 
-        public void Broil()
+        public override void Broil(IEnumerable<Ingredient> ingrediants)
         {
             Grams = 123;
         }
 
-        public void DeepFry()
+        public override void DeepFry(IEnumerable<Ingredient> ingrediants)
         {
             throw new System.NotImplementedException();
         }
 
-        public void PanFry()
+        public override void PanFry(IEnumerable<Ingredient> ingrediants)
         {
             throw new System.NotImplementedException();
         }

@@ -3,33 +3,33 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Domain.Grub.Animal.Cow
+namespace Domain.Grub.Animal.Chicken
 {
-    public class Shank : Food
+    public class Drumstick : Food
     {
-        public Shank()
+        public Drumstick()
         {
             //G
             Grams = 100;
-            Fat = new Fat { Grams = 6, Polyunsaturated = 0, Saturated = 3, Monounaturated = 3 };
-            Calories = 201;
-            Carbohydrate = new Carbohydrate { DietaryFiber = 0, Sugar = 0 };
-            Protein = 34;
+            Fat = new Fat { Grams = 9, Polyunsaturated = 2, Saturated = 3, Monounaturated = 4 };
+            Calories = 160;
+            Carbohydrate = new Carbohydrate { DietaryFiber = 0, Sugar = 0, Grams = 0 };
+            Protein = 19;
 
             //Mg
-            Cholesterol = 78;
-            Sodium = 64;
-            Potassium = 447;
+            Cholesterol = 181;
+            Sodium = 83;
+            Potassium = 206;
 
             //Percent
-            VitaminA = 0;
-            Calcium = 3;
+            VitaminA = 2;
+            Calcium = 1;
             VitaminD = 0;
-            VitaminB12 = 63;
-            VitaminC = 0;
-            Iron = 21;
-            VitaminB6 = 20;
-            Magnesium = 7;
+            VitaminB12 = 6;
+            VitaminC = 5;
+            Iron = 6;
+            VitaminB6 = 15;
+            Magnesium = 5;
         }
 
         public override void Boil(IEnumerable<Ingredient> ingrediants)
